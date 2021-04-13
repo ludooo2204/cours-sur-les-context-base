@@ -2,5 +2,7 @@ import React from "react";
 
 export default React.createContext({
   data: "",
-  updateData: name => {}
+  data2:'',
+  updateData: name => {},
+  updateData2: name => {},
 });
